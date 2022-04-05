@@ -569,4 +569,135 @@ a {
     width: 90%;
   }
 }
+
+.contact {
+  max-width: 1088px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contact .maps {
+  margin-bottom: 50px;
+}
+
+.contact .maps > iframe {
+  width: 1088px;
+  height: 286px;
+  margin: 50px 0;
+}
+
+.contact .maps > h4 {
+  color: #5863F8;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  line-height: 20px;
+}
+
+.contact .maps > h2 {
+  font-size: 42px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  line-height: 56px;
+}
+
+.contact > form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.contact > form > textarea {
+  resize: none;
+  max-width: 720px;
+  width: 100%;
+  max-height: 288px;
+  padding: 10px;
+  font-size: 13px;
+  font-family: 'Poppins', sans-serif;
+  color: #CECECE;
+  border-color: #E8E8E8;
+  background-color: #F8F8F8;
+}
+
+.contact > form > .input-wrapper {
+  display: block;
+}
+
+.contact > form > .input-wrapper > input {
+  max-width: 352px;
+  width: 100%;
+  height: 60px;
+  font-size: 13px;
+  font-family: 'Poppins', sans-serif;
+  color: #CECECE;
+  border: none;
+  border-color: #E8E8E8;
+  background-color: #F8F8F8;
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+
+.contact > form > .input-wrapper > button {
+  max-width: 352px;
+  width: 100%;
+  height: 60px;
+  font-size: 13px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background-color: #5863F8;
+}
+
+.contact .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact .cards .card {
+  display: block;
+  margin-bottom: 50px;
+}
+
+.contact .cards .card .ball {
+  width: 60px;
+  height: 60px;
+  background-color: #5863F8;
+  border-radius: 50%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.contact .cards .card .ball > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.contact .cards .card > h3 {
+  font-size: 18px;
+  line-height: 27px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.contact .cards .card > p {
+  color: #B1B1B1;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
 /*# sourceMappingURL=global.css.map */
