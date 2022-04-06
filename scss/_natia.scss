@@ -144,7 +144,240 @@
             width: 90%;
         }
     }
-    @media (max-width:1024px){
+
+    @media (max-width:1024px) {
         width: 90%;
+    }
+}
+
+.aboutus-1 {
+    max-width: 1088px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 90px 0;
+
+    .block {
+        display: flex;
+        justify-content: space-between;
+
+        .block-1 {
+            width: 550px;
+            height: 388px;
+            display: block;
+            padding: 10px 0;
+
+            &>h4 {
+                color: #5863F8;
+                font-size: 14px;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 900;
+                line-height: 20px;
+            }
+
+            &>h2 {
+                font-size: 42px;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 900;
+                line-height: 56px;
+                margin-bottom: 20px;
+
+            }
+
+            &>p {
+                font-size: 16px;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 700;
+                line-height: 25px;
+            }
+
+            &>button {
+                width: 185px;
+                height: 50px;
+                background-color: #5863F8;
+                font-size: 14px;
+                color: white;
+                margin-top: 20px;
+            }
+        }
+
+        .block-2 {
+            .block-2-img {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+    @media (max-width:1024px) {
+        .block {
+            flex-wrap: wrap;
+            width: 90%;
+
+            .block-1 {
+                height: auto;
+            }
+
+        }
+    }
+}
+
+.aboutus-2 {
+    background-image: url(../images/back-1.png);
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+
+    .aboutus-2-wrapper {
+        max-width: 1088px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 85px 0;
+
+        &>h4 {
+            color: #5863F8;
+            font-size: 14px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 900;
+            line-height: 20px;
+        }
+
+        &>h2 {
+            font-size: 42px;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 900;
+            line-height: 56px;
+            margin-bottom: 40px;
+        }
+    }
+
+    .aboutus-cards {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        flex-wrap: wrap;
+
+        .aboutus-card {
+            width: 260px;
+            height: 260px;
+            background-color: white;
+            display: block;
+
+            .aboutus-ball {
+                width: 60px;
+                height: 60px;
+                background-color: #5863F8;
+                border-radius: 50%;
+                position: relative;
+                margin: 0 auto;
+                margin-top: 15px;
+
+                &>img {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+
+            &>h3 {
+                font-size: 18px;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 700;
+                line-height: 27px;
+                text-align: center;
+                margin: 20px 0;
+
+
+            }
+
+            &>p {
+                font-size: 14px;
+                color: #B1B1B1;
+                font-family: 'Poppins', sans-serif;
+                text-align: center;
+            }
+        }
+
+        @media (max-width:1024px) {
+            width: 90%;
+
+            .aboutus-card {
+                margin: 0 auto;
+                margin-bottom: 10px;
+            }
+
+        }
+    }
+}
+
+.aboutus-3 {
+    background-image: url(../images/back-2.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+
+    .aboutus-3-wrapper {
+        background-color: white;
+        max-width: 783px;
+        width: 100%;
+        height: 487px;
+        padding: 80px;
+
+        &>h4 {
+            color: #5863F8;
+            font-size: 14px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 900;
+            line-height: 20px;
+        }
+
+        &>h2 {
+            font-size: 42px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 900;
+            line-height: 56px;
+            margin-bottom: 20px;
+
+        }
+
+        .profile {
+            display: flex;
+
+            .profile-1 {
+                display: block;
+                margin-left: 25px;
+
+                &>h3 {
+                    font-size: 18px;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 700;
+                    line-height: 27px;
+                    margin-bottom: 10px;
+
+                }
+
+                &>h5 {
+                    color: #B1B1B1;
+                    font-size: 12px;
+                    font-family: 'Poppins', sans-serif;
+                }
+            }
+        }
+
+        &>p {
+            width: 350px;
+            height: 60px;
+            font-size: 14px;
+            font-family: 'Poppins', sans-serif;
+            line-height: 20px;
+            margin-top: 20px;
+        }
     }
 }
