@@ -653,21 +653,41 @@ a {
   background-color: #5863F8;
 }
 
-.contact .cards {
+@media (max-width: 1024px) {
+  .contact > form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+  }
+}
+
+.contact > form > textarea {
+  max-width: none;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.cards {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.contact .cards .card {
+.cards .card {
   display: block;
   margin-bottom: 50px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.contact .cards .card .ball {
+.cards .card .ball {
   width: 60px;
   height: 60px;
   background-color: #5863F8;
@@ -676,7 +696,7 @@ a {
   margin: 0 auto;
 }
 
-.contact .cards .card .ball > img {
+.cards .card .ball > img {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -684,7 +704,7 @@ a {
           transform: translate(-50%, -50%);
 }
 
-.contact .cards .card > h3 {
+.cards .card > h3 {
   font-size: 18px;
   line-height: 27px;
   font-family: 'Poppins', sans-serif;
@@ -693,11 +713,23 @@ a {
   text-align: center;
 }
 
-.contact .cards .card > p {
+.cards .card > p {
   color: #B1B1B1;
   font-size: 14px;
   line-height: 21px;
   font-family: 'Poppins', sans-serif;
   text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .cards .card {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .cards {
+    width: 90%;
+  }
 }
 /*# sourceMappingURL=global.css.map */
