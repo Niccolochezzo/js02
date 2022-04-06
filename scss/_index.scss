@@ -74,9 +74,47 @@
                     max-width: 1088px;
                     width: 100%;
                     height: 148px;
-                    background-color: black;
+                    background-color: white;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
                     position: absolute;
                     top: 575px;
+                    box-shadow: 1px 11px 45px -8px rgba(0,0,0,0.75);
+
+                    & > form{
+                       display: flex;
+                       align-items: flex-end;
+
+                       & > .form-wrapper{
+                           display: flex;
+                           flex-direction: column;
+
+                           & > label{
+                               font-size: 13px;
+                               font-weight: 700;
+                               font-family: 'Poppins', sans-serif;
+                               color: #5863F8;
+                               margin-bottom: 12px;
+                           }
+
+                           & > input{
+                               width: 260px;
+                               padding: 20px;
+                               border: 1px #EBEBEB solid;
+                               margin-right: 20px;
+                               outline: none;
+                           }
+                       }
+
+                       & > button{
+                           width: 57px;
+                           height: 57px;
+                           border: none;
+                           background-color: #5863F8;
+                           cursor: pointer;
+                       }
+                    }
                 }
             } 
     } 
@@ -352,17 +390,19 @@
         max-width: 1088px;
         width: 100%;
         margin: 0 auto;
-        margin-top: 160px;
+        margin-top: 90px;
         margin-bottom: 50px;
 
         h3 {
             font-size: 14px;
+            font-family: "Poppins", sans-serif;
             font-weight: bold;
             color: #5863F8;
             margin-bottom: 10px;
         }
 
         h2 {
+            font-family: "Poppins", sans-serif;
             font-size: 42px;
             line-height: 46px;
         }

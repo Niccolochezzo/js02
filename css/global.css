@@ -136,9 +136,63 @@ a {
   max-width: 1088px;
   width: 100%;
   height: 148px;
-  background-color: black;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: absolute;
   top: 575px;
+  -webkit-box-shadow: 1px 11px 45px -8px rgba(0, 0, 0, 0.75);
+          box-shadow: 1px 11px 45px -8px rgba(0, 0, 0, 0.75);
+}
+
+.home .background-image .header .form > form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.home .background-image .header .form > form > .form-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.home .background-image .header .form > form > .form-wrapper > label {
+  font-size: 13px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  color: #5863F8;
+  margin-bottom: 12px;
+}
+
+.home .background-image .header .form > form > .form-wrapper > input {
+  width: 260px;
+  padding: 20px;
+  border: 1px #EBEBEB solid;
+  margin-right: 20px;
+  outline: none;
+}
+
+.home .background-image .header .form > form > button {
+  width: 57px;
+  height: 57px;
+  border: none;
+  background-color: #5863F8;
+  cursor: pointer;
 }
 
 .s-3 {
@@ -432,7 +486,7 @@ a {
   max-width: 1088px;
   width: 100%;
   margin: 0 auto;
-  margin-top: 160px;
+  margin-top: 90px;
   margin-bottom: 50px;
 }
 
@@ -555,6 +609,266 @@ a {
   color: #fff;
 }
 
+.home {
+  position: relative;
+}
+
+.home .background-image1 {
+  background: url(../images/bg.png);
+  width: 100%;
+  height: 324px;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-position: center !important;
+  overflow: hidden;
+}
+
+.home .background-image1 .header {
+  max-width: 1088px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.home .background-image1 .header .navbar {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home .background-image1 .header .navbar .logo {
+  color: #fff;
+}
+
+.home .background-image1 .header .navbar .nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home .background-image1 .header .navbar .nav-links > li {
+  text-transform: uppercase;
+}
+
+.home .background-image1 .header .navbar .nav-links > li > a {
+  color: #fff;
+  font-size: 12px;
+}
+
+.home .background-image1 .header .navbar .nav-links > li:not(:last-child) {
+  margin-right: 50px;
+}
+
+.home .background-image1 .header .navbar .bm {
+  font-size: 25px;
+  color: #fff;
+  display: none;
+}
+
+.home .background-image1 .header .heading {
+  max-width: 1088px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.home .background-image1 .header .heading > h1 {
+  color: #fff;
+  font-size: 62px;
+  margin-bottom: 20px;
+  margin-top: 96px;
+}
+
+.home .background-image1 .header .heading > .div-p {
+  max-width: 122px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.home .background-image1 .header .heading > .div-p > span {
+  border-right: 1px solid white;
+  height: 19px;
+  display: block;
+  margin-bottom: 35px;
+}
+
+.home .background-image1 .header .heading > .div-p > p {
+  color: #fff;
+}
+
+.s-6 {
+  margin-top: 100px;
+}
+
+.s-6 > .container {
+  max-width: 1088px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.s-6 > .container > h4 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #5863f8;
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.s-6 > .container > h2 {
+  font-size: 42px;
+  font-weight: 900;
+  color: #000000;
+  margin-bottom: 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+.s-6 > .container > .card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.s-6 > .container > .card-wrapper > .card {
+  width: 536px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.s-6 > .container > .card-wrapper > .card > .mini-content {
+  margin: 36px 0 0 16px;
+}
+
+.s-6 > .container > .card-wrapper > .card > .mini-content > h4 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  color: #5863f8;
+}
+
+.s-6 > .container > .card-wrapper > .card > .mini-content > h2 {
+  font-size: 18px;
+  font-weight: 900;
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+  margin-bottom: 9px;
+}
+
+.s-6 > .container > .card-wrapper > .card > .mini-content > p {
+  margin: 0 auto;
+  width: 260px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: #b1b1b1;
+}
+
+.s-6 > .container > .card-wrapper > .card > button {
+  width: 60px;
+  background-color: #5863f8;
+  border: none;
+  cursor: pointer;
+}
+
+.s-7 {
+  margin-top: 70px;
+}
+
+.s-7 > .container {
+  max-width: 1088px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.s-7 > .container .form {
+  max-width: 1088px;
+  width: 100%;
+  height: 148px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.s-7 > .container .form > form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.s-7 > .container .form > form > .form-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.s-7 > .container .form > form > .form-wrapper > label {
+  font-size: 13px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  color: #5863f8;
+  margin-bottom: 12px;
+}
+
+.s-7 > .container .form > form > .form-wrapper > input {
+  width: 260px;
+  padding: 20px;
+  border: 1px #ebebeb solid;
+  margin-right: 10px;
+  outline: none;
+}
+
+.s-7 > .container .form > form > button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #ffffff;
+  font-size: 13px;
+  width: 230px;
+  height: 57px;
+  border: none;
+  background-color: #5863f8;
+  cursor: pointer;
+}
+
 @media (max-width: 769px) {
   .home .background-image .header {
     width: 90%;
@@ -587,16 +901,16 @@ a {
 }
 
 .contact .maps > h4 {
-  color: #5863F8;
+  color: #5863f8;
   font-size: 14px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 900;
   line-height: 20px;
 }
 
 .contact .maps > h2 {
   font-size: 42px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 900;
   line-height: 56px;
 }
@@ -619,10 +933,10 @@ a {
   max-height: 288px;
   padding: 10px;
   font-size: 13px;
-  font-family: 'Poppins', sans-serif;
-  color: #CECECE;
-  border-color: #E8E8E8;
-  background-color: #F8F8F8;
+  font-family: "Poppins", sans-serif;
+  color: #cecece;
+  border-color: #e8e8e8;
+  background-color: #f8f8f8;
 }
 
 .contact > form > .input-wrapper {
@@ -634,11 +948,11 @@ a {
   width: 100%;
   height: 60px;
   font-size: 13px;
-  font-family: 'Poppins', sans-serif;
-  color: #CECECE;
+  font-family: "Poppins", sans-serif;
+  color: #cecece;
   border: none;
-  border-color: #E8E8E8;
-  background-color: #F8F8F8;
+  border-color: #e8e8e8;
+  background-color: #f8f8f8;
   margin-bottom: 15px;
   padding-left: 10px;
 }
@@ -648,9 +962,9 @@ a {
   width: 100%;
   height: 60px;
   font-size: 13px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: white;
-  background-color: #5863F8;
+  background-color: #5863f8;
 }
 
 @media (max-width: 1024px) {
@@ -690,7 +1004,7 @@ a {
 .cards .card .ball {
   width: 60px;
   height: 60px;
-  background-color: #5863F8;
+  background-color: #5863f8;
   border-radius: 50%;
   position: relative;
   margin: 0 auto;
@@ -707,17 +1021,17 @@ a {
 .cards .card > h3 {
   font-size: 18px;
   line-height: 27px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   margin: 10px 0;
   text-align: center;
 }
 
 .cards .card > p {
-  color: #B1B1B1;
+  color: #b1b1b1;
   font-size: 14px;
   line-height: 21px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-align: center;
 }
 
@@ -737,7 +1051,7 @@ a {
   max-width: 1088px;
   width: 100%;
   margin: 0 auto;
-  padding: 90px 0;
+  padding-top: 120px;
 }
 
 .aboutus-1 .block {
@@ -750,23 +1064,23 @@ a {
 }
 
 .aboutus-1 .block .block-1 {
-  width: 550px;
+  width: 500px;
   height: 388px;
   display: block;
   padding: 10px 0;
 }
 
 .aboutus-1 .block .block-1 > h4 {
-  color: #5863F8;
+  color: #5863f8;
   font-size: 14px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 900;
   line-height: 20px;
 }
 
 .aboutus-1 .block .block-1 > h2 {
   font-size: 42px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 900;
   line-height: 56px;
   margin-bottom: 20px;
@@ -774,15 +1088,18 @@ a {
 
 .aboutus-1 .block .block-1 > p {
   font-size: 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   line-height: 25px;
+  margin-bottom: 18px;
 }
 
 .aboutus-1 .block .block-1 > button {
   width: 185px;
   height: 50px;
-  background-color: #5863F8;
+  background-color: #5863f8;
+  border: none;
+  cursor: pointer;
   font-size: 14px;
   color: white;
   margin-top: 20px;
@@ -817,6 +1134,7 @@ a {
   background-size: cover;
   background-position: center;
   overflow: hidden;
+  margin-top: 80px;
 }
 
 .aboutus-2 .aboutus-2-wrapper {
@@ -827,9 +1145,9 @@ a {
 }
 
 .aboutus-2 .aboutus-2-wrapper > h4 {
-  color: #5863F8;
+  color: #5863f8;
   font-size: 14px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 900;
   line-height: 20px;
 }
@@ -837,7 +1155,7 @@ a {
 .aboutus-2 .aboutus-2-wrapper > h2 {
   font-size: 42px;
   color: white;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 900;
   line-height: 56px;
   margin-bottom: 40px;
@@ -865,7 +1183,7 @@ a {
 .aboutus-2 .aboutus-cards .aboutus-card .aboutus-ball {
   width: 60px;
   height: 60px;
-  background-color: #5863F8;
+  background-color: #5863f8;
   border-radius: 50%;
   position: relative;
   margin: 0 auto;
@@ -882,7 +1200,7 @@ a {
 
 .aboutus-2 .aboutus-cards .aboutus-card > h3 {
   font-size: 18px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   line-height: 27px;
   text-align: center;
@@ -891,8 +1209,8 @@ a {
 
 .aboutus-2 .aboutus-cards .aboutus-card > p {
   font-size: 14px;
-  color: #B1B1B1;
-  font-family: 'Poppins', sans-serif;
+  color: #b1b1b1;
+  font-family: "Poppins", sans-serif;
   text-align: center;
 }
 
@@ -930,16 +1248,16 @@ a {
 }
 
 .aboutus-3 .aboutus-3-container .aboutus-3-wrapper > h4 {
-  color: #5863F8;
+  color: #5863f8;
   font-size: 14px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 900;
   line-height: 20px;
 }
 
 .aboutus-3 .aboutus-3-container .aboutus-3-wrapper > h2 {
   font-size: 42px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 900;
   line-height: 56px;
   margin-bottom: 20px;
@@ -958,23 +1276,23 @@ a {
 
 .aboutus-3 .aboutus-3-container .aboutus-3-wrapper .profile .profile-1 > h3 {
   font-size: 18px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   line-height: 27px;
   margin-bottom: 10px;
 }
 
 .aboutus-3 .aboutus-3-container .aboutus-3-wrapper .profile .profile-1 > h5 {
-  color: #B1B1B1;
+  color: #b1b1b1;
   font-size: 12px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .aboutus-3 .aboutus-3-container .aboutus-3-wrapper > p {
   width: 350px;
   height: 60px;
   font-size: 14px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 20px;
   margin-top: 20px;
 }
