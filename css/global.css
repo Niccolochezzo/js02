@@ -569,4 +569,413 @@ a {
     width: 90%;
   }
 }
+
+.contact {
+  max-width: 1088px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contact .maps {
+  margin-bottom: 50px;
+}
+
+.contact .maps > iframe {
+  width: 1088px;
+  height: 286px;
+  margin: 50px 0;
+}
+
+.contact .maps > h4 {
+  color: #5863F8;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  line-height: 20px;
+}
+
+.contact .maps > h2 {
+  font-size: 42px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  line-height: 56px;
+}
+
+.contact > form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.contact > form > textarea {
+  resize: none;
+  max-width: 720px;
+  width: 100%;
+  max-height: 288px;
+  padding: 10px;
+  font-size: 13px;
+  font-family: 'Poppins', sans-serif;
+  color: #CECECE;
+  border-color: #E8E8E8;
+  background-color: #F8F8F8;
+}
+
+.contact > form > .input-wrapper {
+  display: block;
+}
+
+.contact > form > .input-wrapper > input {
+  max-width: 352px;
+  width: 100%;
+  height: 60px;
+  font-size: 13px;
+  font-family: 'Poppins', sans-serif;
+  color: #CECECE;
+  border: none;
+  border-color: #E8E8E8;
+  background-color: #F8F8F8;
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+
+.contact > form > .input-wrapper > button {
+  max-width: 352px;
+  width: 100%;
+  height: 60px;
+  font-size: 13px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background-color: #5863F8;
+}
+
+@media (max-width: 1024px) {
+  .contact > form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+  }
+}
+
+.contact > form > textarea {
+  max-width: none;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.cards .card {
+  display: block;
+  margin-bottom: 50px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.cards .card .ball {
+  width: 60px;
+  height: 60px;
+  background-color: #5863F8;
+  border-radius: 50%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.cards .card .ball > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.cards .card > h3 {
+  font-size: 18px;
+  line-height: 27px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.cards .card > p {
+  color: #B1B1B1;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .cards .card {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .cards {
+    width: 90%;
+  }
+}
+
+.aboutus-1 {
+  max-width: 1088px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 90px 0;
+}
+
+.aboutus-1 .block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.aboutus-1 .block .block-1 {
+  width: 550px;
+  height: 388px;
+  display: block;
+  padding: 10px 0;
+}
+
+.aboutus-1 .block .block-1 > h4 {
+  color: #5863F8;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  line-height: 20px;
+}
+
+.aboutus-1 .block .block-1 > h2 {
+  font-size: 42px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  line-height: 56px;
+  margin-bottom: 20px;
+}
+
+.aboutus-1 .block .block-1 > p {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.aboutus-1 .block .block-1 > button {
+  width: 185px;
+  height: 50px;
+  background-color: #5863F8;
+  font-size: 14px;
+  color: white;
+  margin-top: 20px;
+}
+
+.aboutus-1 .block .block-2 .block-2-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 1024px) {
+  .aboutus-1 .block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 90%;
+  }
+  .aboutus-1 .block .block-1 {
+    height: auto;
+  }
+}
+
+.aboutus-2 {
+  background-image: url(../images/back-1.png);
+  width: 100%;
+  height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.aboutus-2 .aboutus-2-wrapper {
+  max-width: 1088px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 85px 0;
+}
+
+.aboutus-2 .aboutus-2-wrapper > h4 {
+  color: #5863F8;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  line-height: 20px;
+}
+
+.aboutus-2 .aboutus-2-wrapper > h2 {
+  font-size: 42px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  line-height: 56px;
+  margin-bottom: 40px;
+}
+
+.aboutus-2 .aboutus-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.aboutus-2 .aboutus-cards .aboutus-card {
+  width: 260px;
+  height: 260px;
+  background-color: white;
+  display: block;
+}
+
+.aboutus-2 .aboutus-cards .aboutus-card .aboutus-ball {
+  width: 60px;
+  height: 60px;
+  background-color: #5863F8;
+  border-radius: 50%;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.aboutus-2 .aboutus-cards .aboutus-card .aboutus-ball > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.aboutus-2 .aboutus-cards .aboutus-card > h3 {
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.aboutus-2 .aboutus-cards .aboutus-card > p {
+  font-size: 14px;
+  color: #B1B1B1;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .aboutus-2 .aboutus-cards {
+    width: 90%;
+  }
+  .aboutus-2 .aboutus-cards .aboutus-card {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
+
+.aboutus-3 {
+  background-image: url(../images/back-2.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.aboutus-3 .aboutus-3-container {
+  max-width: 1088px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.aboutus-3 .aboutus-3-container .aboutus-3-wrapper {
+  background-color: white;
+  max-width: 783px;
+  width: 100%;
+  height: 487px;
+  padding: 80px;
+}
+
+.aboutus-3 .aboutus-3-container .aboutus-3-wrapper > h4 {
+  color: #5863F8;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  line-height: 20px;
+}
+
+.aboutus-3 .aboutus-3-container .aboutus-3-wrapper > h2 {
+  font-size: 42px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  line-height: 56px;
+  margin-bottom: 20px;
+}
+
+.aboutus-3 .aboutus-3-container .aboutus-3-wrapper .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.aboutus-3 .aboutus-3-container .aboutus-3-wrapper .profile .profile-1 {
+  display: block;
+  margin-left: 25px;
+}
+
+.aboutus-3 .aboutus-3-container .aboutus-3-wrapper .profile .profile-1 > h3 {
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  line-height: 27px;
+  margin-bottom: 10px;
+}
+
+.aboutus-3 .aboutus-3-container .aboutus-3-wrapper .profile .profile-1 > h5 {
+  color: #B1B1B1;
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.aboutus-3 .aboutus-3-container .aboutus-3-wrapper > p {
+  width: 350px;
+  height: 60px;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 20px;
+  margin-top: 20px;
+}
 /*# sourceMappingURL=global.css.map */
