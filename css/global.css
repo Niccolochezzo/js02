@@ -492,12 +492,14 @@ a {
 
 .photos .heading h3 {
   font-size: 14px;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   color: #5863F8;
   margin-bottom: 10px;
 }
 
 .photos .heading h2 {
+  font-family: "Poppins", sans-serif;
   font-size: 42px;
   line-height: 46px;
 }
@@ -1224,76 +1226,130 @@ a {
   }
 }
 
-.aboutus-3 {
-  background-image: url(../images/back-2.png);
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
-}
-
-.aboutus-3 .aboutus-3-container {
+.aboutus-3 .container {
   max-width: 1088px;
   width: 100%;
   margin: 0 auto;
-}
-
-.aboutus-3 .aboutus-3-container .aboutus-3-wrapper {
-  background-color: white;
-  max-width: 783px;
-  width: 100%;
-  height: 487px;
-  padding: 80px;
-}
-
-.aboutus-3 .aboutus-3-container .aboutus-3-wrapper > h4 {
-  color: #5863f8;
-  font-size: 14px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
-  line-height: 20px;
-}
-
-.aboutus-3 .aboutus-3-container .aboutus-3-wrapper > h2 {
-  font-size: 42px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
-  line-height: 56px;
-  margin-bottom: 20px;
-}
-
-.aboutus-3 .aboutus-3-container .aboutus-3-wrapper .profile {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.aboutus-3 .aboutus-3-container .aboutus-3-wrapper .profile .profile-1 {
-  display: block;
-  margin-left: 25px;
+.aboutus-3 .container .content-wrapper {
+  padding: 76px 0;
+  width: 644px;
+  position: relative;
 }
 
-.aboutus-3 .aboutus-3-container .aboutus-3-wrapper .profile .profile-1 > h3 {
-  font-size: 18px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  line-height: 27px;
-  margin-bottom: 10px;
-}
-
-.aboutus-3 .aboutus-3-container .aboutus-3-wrapper .profile .profile-1 > h5 {
-  color: #b1b1b1;
-  font-size: 12px;
-  font-family: "Poppins", sans-serif;
-}
-
-.aboutus-3 .aboutus-3-container .aboutus-3-wrapper > p {
-  width: 350px;
-  height: 60px;
+.aboutus-3 .container .content-wrapper > h4 {
   font-size: 14px;
-  font-family: "Poppins", sans-serif;
-  line-height: 20px;
-  margin-top: 20px;
+  font-weight: bold;
+  color: #5863F8;
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.aboutus-3 .container .content-wrapper > h2 {
+  width: 512px;
+  font-size: 42px;
+  font-weight: 900;
+  color: #000000;
+  margin-bottom: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.aboutus-3 .container .content-wrapper > .user1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.aboutus-3 .container .content-wrapper > .user1 > .user1-information {
+  margin-left: 13px;
+}
+
+.aboutus-3 .container .content-wrapper > .user1 > .user1-information > h5 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+  margin-top: 5px;
+  margin-bottom: 12px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.aboutus-3 .container .content-wrapper > .user1 > .user1-information > h6 {
+  font-size: 12px;
+  font-weight: 700;
+  color: #000000;
+  opacity: 50%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.aboutus-3 .container .content-wrapper > P {
+  width: 352px;
+  font-size: 14px;
+  color: black;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 15px;
+}
+
+.aboutus-3 .container .content-wrapper .round {
+  width: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.aboutus-3 .container .content-wrapper .round > .round1 {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #D1D1D1;
+  cursor: pointer;
+}
+
+.aboutus-3 .container .content-wrapper .round > .round1:hover {
+  background-color: blue;
+}
+
+.aboutus-3 .container .content-wrapper > button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 60px;
+  height: 60px;
+  background-color: #5863F8;
+  border: none;
+  cursor: pointer;
+}
+
+.aboutus-3 .container .image-wrapper {
+  position: relative;
+  width: 500px;
+  height: 490px;
+}
+
+.aboutus-3 .container .image-wrapper > img {
+  width: 100%;
+  height: 490px;
+}
+
+.aboutus-3 .container .image-wrapper > button {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
 }
 /*# sourceMappingURL=global.css.map */
