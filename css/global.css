@@ -1180,6 +1180,7 @@ a {
   height: 260px;
   background-color: white;
   display: block;
+  cursor: pointer;
 }
 
 .aboutus-2 .aboutus-cards .aboutus-card .aboutus-ball {
