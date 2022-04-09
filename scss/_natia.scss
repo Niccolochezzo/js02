@@ -6,13 +6,13 @@
   .maps {
     margin-bottom: 50px;
 
-    & > iframe {
+    &>iframe {
       width: 1088px;
       height: 286px;
       margin: 50px 0;
     }
 
-    & > h4 {
+    &>h4 {
       color: #5863f8;
       font-size: 14px;
       font-family: "Poppins", sans-serif;
@@ -20,7 +20,7 @@
       line-height: 20px;
     }
 
-    & > h2 {
+    &>h2 {
       font-size: 42px;
       font-family: "Poppins", sans-serif;
       font-weight: 900;
@@ -28,13 +28,13 @@
     }
   }
 
-  & > form {
+  &>form {
     display: flex;
     justify-content: space-between;
     text-align: center;
     margin-bottom: 50px;
 
-    & > textarea {
+    &>textarea {
       resize: none;
       max-width: 720px;
       width: 100%;
@@ -47,10 +47,10 @@
       background-color: #f8f8f8;
     }
 
-    & > .input-wrapper {
+    &>.input-wrapper {
       display: block;
 
-      & > input {
+      &>input {
         max-width: 352px;
         width: 100%;
         height: 60px;
@@ -64,7 +64,7 @@
         padding-left: 10px;
       }
 
-      & > button {
+      &>button {
         max-width: 352px;
         width: 100%;
         height: 60px;
@@ -80,7 +80,7 @@
       height: auto;
     }
 
-    & > textarea {
+    &>textarea {
       max-width: none;
       height: 200px;
       margin-bottom: 20px;
@@ -106,7 +106,7 @@
       position: relative;
       margin: 0 auto;
 
-      & > img {
+      &>img {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -114,7 +114,7 @@
       }
     }
 
-    & > h3 {
+    &>h3 {
       font-size: 18px;
       line-height: 27px;
       font-family: "Poppins", sans-serif;
@@ -123,7 +123,7 @@
       text-align: center;
     }
 
-    & > p {
+    &>p {
       color: #b1b1b1;
       font-size: 14px;
       line-height: 21px;
@@ -159,7 +159,7 @@
       display: block;
       padding: 10px 0;
 
-      & > h4 {
+      &>h4 {
         color: #5863f8;
         font-size: 14px;
         font-family: "Poppins", sans-serif;
@@ -167,7 +167,7 @@
         line-height: 20px;
       }
 
-      & > h2 {
+      &>h2 {
         font-size: 42px;
         font-family: "Poppins", sans-serif;
         font-weight: 900;
@@ -175,7 +175,7 @@
         margin-bottom: 20px;
       }
 
-      & > p {
+      &>p {
         font-size: 16px;
         font-family: "Poppins", sans-serif;
         font-weight: 700;
@@ -183,7 +183,7 @@
         margin-bottom: 18px;
       }
 
-      & > button {
+      &>button {
         width: 185px;
         height: 50px;
         background-color: #5863f8;
@@ -232,7 +232,7 @@
     margin: 0 auto;
     padding: 85px 0;
 
-    & > h4 {
+    &>h4 {
       color: #5863f8;
       font-size: 14px;
       font-family: "Poppins", sans-serif;
@@ -240,7 +240,7 @@
       line-height: 20px;
     }
 
-    & > h2 {
+    &>h2 {
       font-size: 42px;
       color: white;
       font-family: "Poppins", sans-serif;
@@ -261,6 +261,7 @@
       height: 260px;
       background-color: white;
       display: block;
+      cursor: pointer;
 
       .aboutus-ball {
         width: 60px;
@@ -271,7 +272,7 @@
         margin: 0 auto;
         margin-top: 15px;
 
-        & > img {
+        &>img {
           position: absolute;
           top: 50%;
           left: 50%;
@@ -279,7 +280,7 @@
         }
       }
 
-      & > h3 {
+      &>h3 {
         font-size: 18px;
         font-family: "Poppins", sans-serif;
         font-weight: 700;
@@ -288,7 +289,7 @@
         margin: 20px 0;
       }
 
-      & > p {
+      &>p {
         font-size: 14px;
         color: #b1b1b1;
         font-family: "Poppins", sans-serif;
@@ -308,71 +309,120 @@
 }
 
 .aboutus-3 {
-  background-image: url(../images/back-2.png);
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
 
-  .aboutus-3-container {
+  .container {
     max-width: 1088px;
     width: 100%;
     margin: 0 auto;
+    display: flex;
 
-    .aboutus-3-wrapper {
-      background-color: white;
-      max-width: 783px;
-      width: 100%;
-      height: 487px;
-      padding: 80px;
+    .content-wrapper {
+      padding: 76px 0;
+      width: 644px;
+      position: relative;
 
-      & > h4 {
-        color: #5863f8;
+      &>h4 {
         font-size: 14px;
-        font-family: "Poppins", sans-serif;
-        font-weight: 900;
-        line-height: 20px;
+        font-weight: bold;
+        color: #5863F8;
+        margin-bottom: 10px;
+        font-family: 'Poppins', sans-serif;
       }
 
-      & > h2 {
+      &>h2 {
+        width: 512px;
         font-size: 42px;
-        font-family: "Poppins", sans-serif;
         font-weight: 900;
-        line-height: 56px;
-        margin-bottom: 20px;
+        color: #000000;
+        margin-bottom: 30px;
+        font-family: 'Poppins', sans-serif;
       }
 
-      .profile {
+      &>.user1 {
         display: flex;
+        align-items: center;
+        margin-bottom: 20px;
 
-        .profile-1 {
-          display: block;
-          margin-left: 25px;
+        &>.user1-information {
+          margin-left: 13px;
 
-          & > h3 {
+          &>h5 {
             font-size: 18px;
-            font-family: "Poppins", sans-serif;
             font-weight: 700;
-            line-height: 27px;
-            margin-bottom: 10px;
+            color: #000000;
+            margin-top: 5px;
+            margin-bottom: 12px;
+            font-family: 'Poppins', sans-serif;
           }
 
-          & > h5 {
-            color: #b1b1b1;
+          &>h6 {
             font-size: 12px;
-            font-family: "Poppins", sans-serif;
+            font-weight: 700;
+            color: #000000;
+            opacity: 50%;
+            font-family: 'Poppins', sans-serif;
           }
         }
       }
 
-      & > p {
-        width: 350px;
-        height: 60px;
+      &>P {
+        width: 352px;
         font-size: 14px;
-        font-family: "Poppins", sans-serif;
-        line-height: 20px;
-        margin-top: 20px;
+        color: black;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        margin-bottom: 15px;
+      }
+
+      .round {
+        width: 70px;
+        display: flex;
+        justify-content: space-between;
+
+        &>.round1 {
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          background-color: #D1D1D1;
+          cursor: pointer;
+
+          &:hover {
+            background-color: blue;
+          }
+        }
+      }
+
+      &>button {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 60px;
+        height: 60px;
+        background-color: #5863F8;
+        border: none;
+        cursor: pointer;
+      }
+    }
+
+    .image-wrapper {
+      position: relative;
+      width: 500px;
+      height: 490px;
+
+      &>img {
+        width: 100%;
+        height: 490px;
+      }
+
+      &>button {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 60px;
+        height: 60px;
+        background-color: white;
+        border: none;
+        cursor: pointer;
       }
     }
   }
