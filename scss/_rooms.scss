@@ -96,6 +96,10 @@
       color: #5863f8;
       margin-bottom: 10px;
       font-family: "Poppins", sans-serif;
+
+      @media (max-width: 977px) {
+        text-align: center;
+      }
     }
 
     & > h2 {
@@ -104,6 +108,10 @@
       color: #000000;
       margin-bottom: 30px;
       font-family: "Poppins", sans-serif;
+
+      @media (max-width: 977px) {
+        text-align: center;
+      }
     }
 
     & > .card-wrapper {
@@ -126,6 +134,10 @@
             font-weight: bold;
             font-family: "Poppins", sans-serif;
             color: #5863f8;
+
+            @media (max-width: 430px) {
+              font-size: 18px;
+            }
           }
 
           & > h2 {
@@ -134,6 +146,10 @@
             font-family: "Poppins", sans-serif;
             color: #000000;
             margin-bottom: 9px;
+
+            @media (max-width: 430px) {
+              font-size: 14px;
+            }
           }
 
           & > p {
@@ -143,6 +159,14 @@
             font-weight: 400;
             font-family: "Poppins", sans-serif;
             color: #b1b1b1;
+
+            @media (max-width: 1087px) {
+              width: auto;
+            }
+
+            @media (max-width: 430px) {
+              font-size: 10px;
+            }
           }
         }
 
@@ -152,7 +176,25 @@
           border: none;
           cursor: pointer;
         }
+
+        @media (max-width: 1087px) {
+          width: 400px;
+        }
+
+        @media (max-width: 430px) {
+          width: 350px;
+        }
       }
+
+      @media (max-width: 977px) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
+    @media (max-width: 1087px) {
+      width: 90%;
     }
   }
 }
@@ -188,6 +230,10 @@
             font-family: "Poppins", sans-serif;
             color: #5863f8;
             margin-bottom: 12px;
+
+            @media (max-width: 900px) {
+              margin-top: 20px;
+            }
           }
 
           & > input {
@@ -210,8 +256,35 @@
           border: none;
           background-color: #5863f8;
           cursor: pointer;
+
+          @media (max-width: 1087px) {
+            margin:  0 auto;
+            margin-top: 20px;
+          }
+
+          @media (max-width: 900px) {
+            width: 260px;
+          }
+        }
+
+        @media (max-width: 1087px) {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        @media (max-width: 900px) {
+          flex-direction: column;
         }
       }
+
+      @media (max-width: 900px) {
+        height: auto;
+      }
+    }
+
+    @media (max-width: 1087px) {
+      width: 90%;
     }
   }
 }
