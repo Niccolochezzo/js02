@@ -13,8 +13,35 @@
                 }
                 .form {
                     width: 90%;
+
+                    & > form{
+                        
+                        & > .form-wrapper{
+ 
+                            & > input{
+                                width: 170px;
+                               
+                            }
+                        }
+ 
+                    }
                 }
             }
         }
     }
-}    
+
+    .footer {
+
+        padding: 89px  40px 42px 20px; 
+        
+        .content {
+            max-width: 769px;
+            width: 100%;
+            
+            .about {
+                margin-right: 100px;
+            }
+        }
+    }
+} 
+

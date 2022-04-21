@@ -82,6 +82,8 @@
                     top: 575px;
                     box-shadow: 1px 11px 45px -8px rgba(0,0,0,0.75);
 
+                    
+
                     & > form{
                        display: flex;
                        align-items: flex-end;
@@ -89,6 +91,7 @@
                        & > .form-wrapper{
                            display: flex;
                            flex-direction: column;
+                           
 
                            & > label{
                                font-size: 13px;

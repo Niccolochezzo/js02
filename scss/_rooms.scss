@@ -14,6 +14,12 @@
       width: 100%;
       margin: 0 auto;
 
+      @media (max-width:769px) {
+        
+        width: 90%;
+           
+      }
+
       .navbar {
         margin-top: 20px;
         display: flex;
@@ -26,6 +32,12 @@
 
         .nav-links {
           display: flex;
+
+          @media (max-width:769px) {
+        
+            display: none;
+               
+          }
 
           & > li {
             text-transform: uppercase;
@@ -45,6 +57,12 @@
           font-size: 25px;
           color: #fff;
           display: none;
+
+          @media (max-width:769px) {
+        
+            display: inline-block;
+               
+          }
         }
       }
 
